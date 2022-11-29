@@ -1,0 +1,261 @@
+house_class ('frcgnn',) classification 1 1 None None
+/home/harsh/col865_project/bgnn/datasets /home/harsh/col865_project/bgnn/configs/model
+Save to folder: results/house_class/28_11
+house_class Seed 0
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5221070442108221
+label: 2.0, roc: 0.5555550173905883
+label: 0.0, roc: 0.5688751765697576
+label: 1.0, roc: 0.5607843043746821
+label: 3.0, roc: 0.5890337326786641
+accuracy: 0.3132267441860465
+Best accuracy at iteration 986: 0.595/0.590/0.592
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5274832651806193
+label: 2.0, roc: 0.5635273578072916
+label: 0.0, roc: 0.5524555351600609
+label: 1.0, roc: 0.5537611501707724
+label: 3.0, roc: 0.5999641740633108
+accuracy: 0.312015503875969
+Best accuracy at iteration 623: 0.566/0.566/0.570
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5393778154179384
+label: 2.0, roc: 0.5574371219028199
+label: 0.0, roc: 0.5749524916077969
+label: 1.0, roc: 0.5498987930867427
+label: 3.0, roc: 0.5871923983802486
+accuracy: 0.32398255813953486
+Best accuracy at iteration 948: 0.582/0.581/0.580
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5300264490005301
+label: 2.0, roc: 0.5525058313360686
+label: 0.0, roc: 0.5554560707756592
+label: 1.0, roc: 0.5633750348206285
+label: 3.0, roc: 0.5947534382982407
+accuracy: 0.31739341085271316
+Best accuracy at iteration 507: 0.580/0.577/0.583
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5313194376321846
+label: 2.0, roc: 0.5579619389624907
+label: 0.0, roc: 0.538304795557608
+label: 1.0, roc: 0.5524827335101615
+label: 3.0, roc: 0.5781538689735002
+accuracy: 0.3194767441860465
+Best accuracy at iteration 851: 0.616/0.601/0.595
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5226261775016433
+label: 2.0, roc: 0.5650118008955604
+label: 0.0, roc: 0.532702817336742
+label: 1.0, roc: 0.5660889697333042
+label: 3.0, roc: 0.5999709460509124
+accuracy: 0.3140988372093023
+Best accuracy at iteration 4: 0.283/0.279/0.285
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5268878056222999
+label: 2.0, roc: 0.5589415054193424
+label: 0.0, roc: 0.5603827781735633
+label: 1.0, roc: 0.5467886145628953
+label: 3.0, roc: 0.5802017103069497
+accuracy: 0.3182170542635659
+Best accuracy at iteration 2: 0.283/0.279/0.285
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5341237662830964
+label: 2.0, roc: 0.5567888597132665
+label: 0.0, roc: 0.557231794421244
+label: 1.0, roc: 0.5679227678463289
+label: 3.0, roc: 0.5821892500812832
+accuracy: 0.3245639534883721
+Best accuracy at iteration 944: 0.590/0.582/0.594
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.522829523095249
+label: 2.0, roc: 0.5542078630178686
+label: 0.0, roc: 0.5791502980964797
+label: 1.0, roc: 0.5668615183610687
+label: 3.0, roc: 0.5600199042413943
+accuracy: 0.3135174418604651
+Best accuracy at iteration 51: 0.510/0.508/0.509
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5267912496217132
+label: 2.0, roc: 0.561176065498302
+label: 0.0, roc: 0.5909993003125589
+label: 1.0, roc: 0.5634024371411961
+label: 3.0, roc: 0.5790571575818748
+accuracy: 0.31700581395348837
+Best accuracy at iteration 67: 0.521/0.516/0.517
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.542039238639719
+label: 2.0, roc: 0.5447677413835222
+label: 0.0, roc: 0.5685098083505127
+label: 1.0, roc: 0.5487168825545624
+label: 3.0, roc: 0.5677961621699253
+accuracy: 0.324515503875969
+Best accuracy at iteration 112: 0.518/0.519/0.517
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5290616592650631
+label: 2.0, roc: 0.5695521571004374
+label: 0.0, roc: 0.5508707065583576
+label: 1.0, roc: 0.5668922589201366
+label: 3.0, roc: 0.5734960631021138
+accuracy: 0.31826550387596897
+Best accuracy at iteration 74: 0.539/0.543/0.546
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5315832060157447
+label: 2.0, roc: 0.5582768716850011
+label: 0.0, roc: 0.5585884218664299
+label: 1.0, roc: 0.5688197320931134
+label: 3.0, roc: 0.5845190742773981
+accuracy: 0.3178779069767442
+Best accuracy at iteration 18: 0.404/0.407/0.399
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5388894176534555
+label: 2.0, roc: 0.5554379381857772
+label: 0.0, roc: 0.5349939494428997
+label: 1.0, roc: 0.5593509207785287
+label: 3.0, roc: 0.5777231339045367
+accuracy: 0.32335271317829456
+Best accuracy at iteration 0: 0.283/0.279/0.285
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5339397295730052
+label: 2.0, roc: 0.5571406000870778
+label: 0.0, roc: 0.5617811088437202
+label: 1.0, roc: 0.5500376592665261
+label: 3.0, roc: 0.5799541275978289
+accuracy: 0.31656976744186044
+Best accuracy at iteration 0: 0.283/0.279/0.285
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20640, 6), y shape: (20640, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (12384, 6), y shape: (12384,)
+Labels : [4. 2. 0. 1. 3.], len: 5
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 4.0, roc: 0.5293390261064793
+label: 2.0, roc: 0.5576989391593032
+label: 0.0, roc: 0.5464587386725818
+label: 1.0, roc: 0.5461899495555071
+label: 3.0, roc: 0.5664478613677284
+accuracy: 0.32025193798449614
+Best accuracy at iteration 1: 0.283/0.279/0.285
+Finished house_class: 2122.3686027526855 sec.

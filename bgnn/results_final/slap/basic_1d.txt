@@ -1,0 +1,421 @@
+slap ('frcgnn',) classification 1 1 None None
+/home/harsh/col865_project/bgnn/datasets /home/harsh/col865_project/bgnn/configs/model
+Save to folder: results/slap/29_11
+slap Seed 0
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9323605891352432
+label: 14.0, roc: 0.9811299334469078
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9985950694255432
+label: 5.0, roc: 0.8976222292241638
+label: 0.0, roc: 0.8589121550832934
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9844706480888845
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9526948631224073
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9303537115126672
+label: 4.0, roc: 1.0
+accuracy: 0.14780351633282726
+Best accuracy at iteration 372: 0.967/0.889/0.869
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9300591086384499
+label: 14.0, roc: 0.9810063765528191
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9973803880810056
+label: 5.0, roc: 0.8919810264255805
+label: 0.0, roc: 0.8575675263132332
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756252
+label: 3.0, roc: 0.9859118941205002
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9508624892330931
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9391225384792934
+label: 4.0, roc: 1.0
+accuracy: 0.14780351633282726
+Best accuracy at iteration 201: 0.905/0.870/0.845
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9281631281717442
+label: 14.0, roc: 0.9808271625517134
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9974393482027103
+label: 5.0, roc: 0.8903185925591295
+label: 0.0, roc: 0.8576962304602127
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9931067274255695
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9519642290305279
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9319093904554059
+label: 4.0, roc: 1.0
+accuracy: 0.14750967236397472
+Best accuracy at iteration 253: 0.958/0.883/0.877
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.01-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9302343922377402
+label: 14.0, roc: 0.9808545673201432
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9986668270930442
+label: 5.0, roc: 0.8920510985666689
+label: 0.0, roc: 0.8551928018187411
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9898884840726699
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9470426053767597
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9383466641512832
+label: 4.0, roc: 1.0
+accuracy: 0.14775454233801852
+Best accuracy at iteration 176: 0.960/0.895/0.892
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9298083778722348
+label: 14.0, roc: 0.979887395595837
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9987724068458643
+label: 5.0, roc: 0.8929525458173734
+label: 0.0, roc: 0.8439608498867912
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756252
+label: 3.0, roc: 0.9880565539198793
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9580690547097798
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9349507177775442
+label: 4.0, roc: 1.0
+accuracy: 0.14750967236397472
+Best accuracy at iteration 69: 0.963/0.895/0.886
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9296198739234532
+label: 14.0, roc: 0.9820564218036482
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9986760253290854
+label: 5.0, roc: 0.8949205764706925
+label: 0.0, roc: 0.8493649207769891
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9875423279120783
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9516019641869311
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9367515036919685
+label: 4.0, roc: 1.0
+accuracy: 0.14785249032763603
+Best accuracy at iteration 127: 0.924/0.889/0.864
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9360367580420754
+label: 14.0, roc: 0.9812292404170421
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9974310640770832
+label: 5.0, roc: 0.8938242559066228
+label: 0.0, roc: 0.85258321827437
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9866907550551881
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9552987074659817
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9367591856160082
+label: 4.0, roc: 1.0
+accuracy: 0.1475586463587835
+Best accuracy at iteration 43: 0.925/0.889/0.869
+
+Seed 0 RUNNING:frcgnn-dropout0.0-hidden_dim64-lr0.1-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9322067316196112
+label: 14.0, roc: 0.9820084399152808
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9975846346266396
+label: 5.0, roc: 0.8992599875736628
+label: 0.0, roc: 0.8489934942539903
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9887720483518327
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9531903723855255
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9304432148601998
+label: 4.0, roc: 0.9999999999999999
+accuracy: 0.14770556834320975
+Best accuracy at iteration 53: 0.964/0.919/0.913
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9332249264675043
+label: 14.0, roc: 0.9832475403984899
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9997822703257593
+label: 5.0, roc: 0.896046792372608
+label: 0.0, roc: 0.8662647119362978
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9854243367487422
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9491938817867298
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9284525246375382
+label: 4.0, roc: 1.0
+accuracy: 0.14780351633282726
+Best accuracy at iteration 16: 0.441/0.462/0.395
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9323986546242958
+label: 14.0, roc: 0.9809854227350334
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9987482400517935
+label: 5.0, roc: 0.8946369662021343
+label: 0.0, roc: 0.858189769812691
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9887636146806055
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9504499156750167
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9367732989183135
+label: 4.0, roc: 1.0
+accuracy: 0.14750967236397472
+Best accuracy at iteration 162: 0.695/0.688/0.668
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9276361376885723
+label: 14.0, roc: 0.9816433255262702
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9984810341513937
+label: 5.0, roc: 0.8948900484272839
+label: 0.0, roc: 0.8518491536517054
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9908592680120425
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9461439949076634
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9282665506160189
+label: 4.0, roc: 1.0
+accuracy: 0.14760762035359223
+Best accuracy at iteration 68: 0.579/0.556/0.537
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.01-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9355357523837657
+label: 14.0, roc: 0.9788881103800033
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9973136580207818
+label: 5.0, roc: 0.8909555688845527
+label: 0.0, roc: 0.8549544736543884
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.989112814256825
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9589937667713255
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9328281843004339
+label: 4.0, roc: 1.0
+accuracy: 0.147656594348401
+Best accuracy at iteration 111: 0.566/0.584/0.556
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-namegat-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9339187668787393
+label: 14.0, roc: 0.981864870948026
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.997518133094019
+label: 5.0, roc: 0.8923832689871776
+label: 0.0, roc: 0.8583421795752415
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9861475810407424
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756251
+label: 6.0, roc: 0.9511807602636092
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9388222288441599
+label: 4.0, roc: 1.0
+accuracy: 0.14770556834320975
+Best accuracy at iteration 138: 0.564/0.588/0.547
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-namegcn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9311279055137063
+label: 14.0, roc: 0.986076117450622
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9985042868350503
+label: 5.0, roc: 0.8954340170349646
+label: 0.0, roc: 0.8453706980089596
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9920780474729074
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9557828499065816
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9321569985186392
+label: 4.0, roc: 1.0
+accuracy: 0.147656594348401
+Best accuracy at iteration 16: 0.588/0.569/0.530
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-nameagnn-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9351357228431227
+label: 14.0, roc: 0.9821602491479565
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.9986329478758245
+label: 5.0, roc: 0.8991290175221479
+label: 0.0, roc: 0.8557278549077562
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.9905843759174466
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9487297365338938
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9362250239211543
+label: 4.0, roc: 1.0
+accuracy: 0.147656594348401
+Best accuracy at iteration 72: 0.555/0.575/0.543
+
+Seed 0 RUNNING:frcgnn-dropout0.5-hidden_dim64-lr0.1-nameappnp-only_gbdtFalse
+got inside frc gnn
+task: classification, X shape: (20419, 2701), y shape: (20419, 1)
+FROCC specs=> epsilon: 0.01, dimension: 500, kernel: sigmoid
+x shape: (1968, 2701), y shape: (1968,)
+Labels : [13. 14.  9.  2.  5.  0. 10. 11.  3. 12.  7.  6.  8.  1.  4.], len: 15
+epsilon: 0.01, kernel: sigmoid,
+repetitions: 1, dimension: 500
+label: 13.0, roc: 0.9365211242949907
+label: 14.0, roc: 0.9812996358273556
+label: 9.0, roc: 1.0
+label: 2.0, roc: 0.998562789901548
+label: 5.0, roc: 0.8953487599603673
+label: 0.0, roc: 0.8569644785805309
+label: 10.0, roc: 1.0
+label: 11.0, roc: 0.9974650521756251
+label: 3.0, roc: 0.984764003085356
+label: 12.0, roc: 1.0
+label: 7.0, roc: 0.9974650521756252
+label: 6.0, roc: 0.9528278970452155
+label: 8.0, roc: 1.0
+label: 1.0, roc: 0.9378903935932039
+label: 4.0, roc: 1.0
+accuracy: 0.14760762035359223
+Best accuracy at iteration 28: 0.498/0.492/0.454
+Finished slap: 5291.102055311203 sec.
