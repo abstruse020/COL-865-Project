@@ -4,6 +4,7 @@ The detais to run the experiments are mentioned bellow:
 
 The main implementation to look at is that of 
 * **FrcGNN**
+
 This also contains implementation of the Boost then convolve papers: 
 * **CatBoost**
 * **LightGBM**
@@ -20,6 +21,7 @@ Clone the repo to your system and go inside bgnn folder
 git clone https://github.com/abstruse020/COL-865-Project.git
 cd COL-865-Project/bgnn
 ```
+---
 Create conda environment using environemnt.yml file and test it works
 **First modify the prefix according to your envs**
 ```bash
@@ -27,6 +29,7 @@ conda env create -f environment.yml
 conda activate col865_1
 conda env list
 ```
+---
 Extract the dataset
 ```bash
 unzip datasets.zip
@@ -106,7 +109,7 @@ Note these different run scripts for for different approaches followed in the pa
 * `run_1d.py` to run frcgnn and combine the label wise *scores* using arg max
 * `run_2d.py` to run frcgnn, take all the label wise *scores* probabilities and pass on to gnn
 * `rum_1d_mlp.py` to run frcgnn and combine the label wise *scores* using a single layered neural netowrk.
- 
+
 Available options for dataset: 
 <!-- * house (regression)
 * county (regression)
@@ -131,7 +134,7 @@ Additional folders will contain loss values during training.
 
 ---
 
-###Examples
+### Examples
 
 The following script will launch all models on `House` classification dataset.  
 ```bash
